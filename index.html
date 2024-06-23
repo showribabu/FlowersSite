@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,21 @@
         .welcome-section {
             position: relative;
             background: url('./images/main.jpg') no-repeat center center/cover;
-            height: calc(100vh - 56px); /* Adjusting for navbar height */
+            height: calc(100vh - 56px);
+            /* Adjusting for navbar height */
             color: white;
             text-align: center;
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
+
         .welcome-content {
             position: relative;
             z-index: 2;
             margin-top: 20px;
         }
+
         .welcome-overlay {
             position: absolute;
             top: 0;
@@ -31,6 +35,7 @@
             background: rgba(0, 0, 0, 0.5);
             z-index: 1;
         }
+
         footer {
             background-color: #f8f9fa;
             padding: 10px 0;
@@ -38,11 +43,13 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Flower Info</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -61,7 +68,7 @@
     </nav>
 
 
-        <h1 style="align-items:center;text-align: center;">Welcome to Flower Info</h1>
+    <h1 style="align-items:center;text-align: center;">Welcome to Flower Info</h1>
 
 
     <!-- Welcome Section -->
@@ -69,7 +76,9 @@
         <div class="welcome-overlay"></div>
         <div class="welcome-content container">
             <p class="lead">Discover the beauty of flowers and learn about different varieties.</p>
-            <p class="lead">Flowers are a beautiful and essential part of our ecosystem. They not only add beauty to our surroundings but also play a vital role in nature. Explore our site to learn more about various types of flowers and their unique characteristics.</p>
+            <p class="lead">Flowers are a beautiful and essential part of our ecosystem. They not only add beauty to our
+                surroundings but also play a vital role in nature. Explore our site to learn more about various types of
+                flowers and their unique characteristics.</p>
         </div>
     </div>
 
@@ -82,4 +91,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
